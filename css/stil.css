@@ -1,0 +1,31 @@
+.termini {
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  color: #254cfb;
+}
+
+table {
+  min-width: 60rem;
+  margin: 0 auto;
+  text-align: left;
+}
+table tr:nth-child(even) {
+  background: #FFF;
+}
+table tr:nth-child(odd) {
+  background: #caf9f9;
+}
+table tr th {
+  padding: 0.5rem;
+  background-color: #FFF;
+  border-bottom: 1px solid aquamarine;
+  border-top: 1px solid aquamarine;
+}
+table tr td {
+  padding: 0.5rem;
+}
+
+/*# sourceMappingURL=stil.css.map */

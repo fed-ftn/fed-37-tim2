@@ -1,0 +1,34 @@
+@import 'vars';
+
+.termini {
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    color: $h1color;
+}
+
+table {
+    min-width: 60rem;
+    margin: 0 auto;
+    text-align: left;
+
+    tr {
+        &:nth-child(even) {background: #FFF}
+        &:nth-child(odd) {background: $obojeniRed}
+
+        th {
+            padding: 0.5rem;
+            background-color: #FFF;
+            border-bottom: 1px solid aquamarine;
+            border-top: 1px solid aquamarine;
+        }
+
+        td {
+            padding: 0.5rem;
+        }
+
+    }
+
+}
